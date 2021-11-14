@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_imagesection_image_sections",
+  "info": {
+    "name": "image-section",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "para": {
+      "type": "text"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "toppara": {
+      "type": "text"
+    }
+  }
+}
